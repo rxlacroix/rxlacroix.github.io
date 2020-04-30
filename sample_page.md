@@ -1,31 +1,32 @@
-## This can be your internal website page / project page
+# Carte de Vidal de la Blache avec QGIS
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+On reproduit ici avec QGIS la carte scolaire de Vidal de la Blache sur le relief de la France : 
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+![](https://i.imgur.com/dKTamjr.jpg)
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+## Matériaux
 
-### 2. Assess assumptions on which statistical inference will be based
+Police : Francois One (gratuite, https://fonts.google.com/specimen/Francois+One)
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Données : proviennent d'un peu partout selon leur praticité
+* le réseau hydrographique : 15sec SHAPE River Network (https://www.eea.europa.eu/data-and-maps/data/external/15sec-shape-river-network) afin de pouvoir faire varier l'épaisseur des cours d'eau de façon plus adéquate
+* les lacs : BD Topo Hydro Surfacique (https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html)
+* les villes : AdminExpress-COG (https://geoservices.ign.fr/documentation/diffusion/telechargement-donnees-libres.html#admin-express)
+* les frontières terrestres : GISCO (https://gisco-services.ec.europa.eu/distribution/v1/countries-2016.html)
+* le relief : j'utilise un modèle qui compile les données ALOSv3 rééchantillonnées à 50m sur la France métropolitaine "élargie", disponible au téléchargement [ici ](https://drive.switch.ch/index.php/s/uMkpZOENrlhVicZ)
 
-### 3. Support the selection of appropriate statistical tools and techniques
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+## Réalisation
 
-### 4. Provide a basis for further data collection through surveys or experiments
+L'échelle originale est au 1/1.100.000e, mais j'ai préféré descendre au 1/550.000e pour avoir plus de souplesse pour travailler.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+L'essentiel du travail a concerné le placement des étiquettes des massifs montagneux et autres éléments toponymiques. Pour plus de liberté, il s'agit d'une couche de lignes dont les labels suivent la géométrie (théoriquement, en pratique ils sont bougés de façon à s'adapter au contexte).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Vous pouvez télécharger 
+* le .tif géographique (Lambert-93, EPSG:2154) ici : https://drive.switch.ch/index.php/s/oYTzUKWEQPIL3CK
+* le .tif géographique sans les toponymes ici : https://drive.switch.ch/index.php/s/6O5O0xofIj1qiSQ
+* les données vectorielles ici : https://drive.switch.ch/index.php/s/cIMlq9EblxtNDw3
+* le projet qgis ici : https://drive.switch.ch/index.php/s/BsfkgioqyMnNYVs
+
+Malgré mes efforts, je n'arrive pas à faire en sorte que la couche d'étiquettes reste stable après partage du projet et des fichiers aussi, il faudra pour le moment vous contenter d'un projet à retoucher chez soi, en échelle 1:550000e.
