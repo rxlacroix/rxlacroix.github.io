@@ -2,28 +2,20 @@
 
 ---
 
-### Category Name 1 
+### Carto - QGIS
 
 [Carte de Vidal de la Blache](/articles/vidal_relief)
 <img src="https://i.imgur.com/dKTamjr.jpg" width="480" height="480">/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
+[Carte Topo IGN](/articles/cartetopoign)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
 ### Category Name 2
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [Flickr](https://www.flickr.com/people/185293507@N04/)
 
 ---
 
@@ -31,5 +23,5 @@
 
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
+<p style="font-size:8px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
 <!-- Remove above link if you don't want to attibute -->
