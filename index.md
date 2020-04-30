@@ -4,8 +4,8 @@
 
 ### Category Name 1 
 
-[Carte de Vidal de la Blache](/carte_vidal)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Carte de Vidal de la Blache](/articles/vidal_relief)
+<img src="https://i.imgur.com/dKTamjr.jpg"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
