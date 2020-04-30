@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [Carte de Vidal de la Blache](/articles/vidal_relief)
-<img src="https://i.imgur.com/dKTamjr.jpg"/>
+<img src="https://i.imgur.com/dKTamjr.jpg" width="480" height="480">/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
