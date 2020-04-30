@@ -1,5 +1,7 @@
 # Carte Topo avec QGIS
 
+**Ce tuto a été délivré pour la nuit de la géographie 2019, certaines choses ont pu changer suite aux mises à jour de QGIS**
+
 On propose ici de réaliser un équivalent d'une carte topographique de l'IGN avec QGIS et des données ouvertes (ou presque) et gratuites.
 
 Petit aperçu final afin de vous donner envie de continuer la lecture:
