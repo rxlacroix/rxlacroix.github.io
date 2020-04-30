@@ -5,11 +5,11 @@
 ### Carto - QGIS
 
 [Carte de Vidal de la Blache](/articles/vidal_relief)
-<img src="https://i.imgur.com/dKTamjr.jpg" width="480" height="480">/>
+<img src="https://i.imgur.com/dKTamjr.jpg" width="480" height="480"/>
 
 ---
 [Carte Topo IGN](/articles/cartetopoign)
-<img src="https://raw.githubusercontent.com/rxlacroix/CarteTopoGeoNight/master/img/1554402273549.png" height="480">/>
+<img src="https://raw.githubusercontent.com/rxlacroix/CarteTopoGeoNight/master/img/1554402273549.png" height="480"/>
 
 ---
 
