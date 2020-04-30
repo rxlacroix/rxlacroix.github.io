@@ -13,7 +13,7 @@
 
 ---
 
-### Category Name 2
+### Autres
 
 - [Flickr](https://www.flickr.com/people/185293507@N04/)
 
