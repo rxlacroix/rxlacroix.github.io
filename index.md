@@ -15,7 +15,7 @@
 
 ### Autres
 
-- [Flickr](https://www.flickr.com/people/185293507@N04/)
+- [Flickr](https://www.flickr.com/photos/185293507@N04/)
 
 ---
 
