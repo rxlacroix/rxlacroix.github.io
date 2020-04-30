@@ -9,7 +9,7 @@
 
 ---
 [Carte Topo IGN](/articles/cartetopoign)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="https://raw.githubusercontent.com/rxlacroix/CarteTopoGeoNight/master/img/1554402273549.png" width="480" height="480"/>
 
 ---
 
