@@ -35,7 +35,10 @@ L'idée est maintenant de fusionner les lignes très proches pour obtenir un sem
   
 ![](https://image.prntscr.com/image/16Eot-T2RcyL484Yb1EKWw.png)
 
+(en vert les lignes "corrigées")
+
 On a nos lignes à peu près continues, on lance ensuite une série de "Fix geometries" + "Merge lines" + "Fix geometries"
+
 ![](https://image.prntscr.com/image/jaCpauIKTJ2_x98OGwRyCQ.png)
 
 Cela donne un résultat assez convaincant, mais en traficotant le style il y a moyen d'améliorer un peu : pour cela j'utilise une palette de gris dégradée sur les quantiles de l'intensité de la déformation du terrain 
