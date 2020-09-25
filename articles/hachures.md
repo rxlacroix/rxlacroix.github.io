@@ -9,6 +9,7 @@ On essaye de reproduire ici avec QGIS des hachures  :
 
 Données : un raster projeté ni trop dégueu, ni trop gros (on est par exemple ici sur du 790*623 avec une résolution de 25m)
 
+QGIS avec SAGA
 
 ## Réalisation
 
