@@ -3,6 +3,8 @@
 ---
 
 ### Carto - QGIS
+[Hachures](/articles/hachures)
+<img src="https://image.prntscr.com/image/N0oMKBpFTAWVqzQuXybMnw.png" width="480" height="480"/>
 
 [Carte de Vidal de la Blache](/articles/vidal_relief)
 <img src="https://i.imgur.com/dKTamjr.jpg" width="480" height="480"/>
