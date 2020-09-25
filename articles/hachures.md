@@ -53,4 +53,4 @@ Bonus : en plus il y a l'attribut d'azimuth qui est disponible, on peut alors s'
 
 -----------
 
-J'ai fait un *modèle pour QGIS* qui reprend les différentes étapes, vous pouvez le télécharger ici : 
+J'ai fait un modèle pour QGIS qui reprend les différentes étapes, vous pouvez le télécharger ici : https://gofile.io/d/4sndJ2
