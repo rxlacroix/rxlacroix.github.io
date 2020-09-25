@@ -56,4 +56,4 @@ Bonus : en plus il y a l'attribut d'azimuth qui est disponible, on peut alors s'
 
 -----------
 
-J'ai fait un modèle pour QGIS qui reprend les différentes étapes, vous pouvez le télécharger ici : [https://gofile.io/d/4sndJ2](https://gofile.io/d/4sndJ2)
+J'ai fait un modèle pour QGIS qui reprend les différentes étapes, vous pouvez le télécharger ici : [https://srv-file12.gofile.io/downloadStore/srv-store3/4sndJ2/hachures.model3](https://srv-file12.gofile.io/downloadStore/srv-store3/4sndJ2/hachures.model3)
