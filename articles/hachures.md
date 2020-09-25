@@ -50,7 +50,7 @@ Je trouve le résultat assez satisfaisant :)
 
 ![](https://image.prntscr.com/image/LK_CxvaSS2OZdVX9yhpFbQ.png)
 
-Bonus : en plus il y a l'attribut d'azimuth qui est disponible, on peut alors s'amuser avec !
+Bonus : en plus il y a l'attribut d'azimuth qui est disponible dans la couche, on peut alors s'amuser avec !
 
 ![](https://image.prntscr.com/image/N0oMKBpFTAWVqzQuXybMnw.png)
 
