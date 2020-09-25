@@ -7,7 +7,7 @@ On essaye de reproduire ici avec QGIS des hachures  :
 
 ## Matériaux
 
-Données : un raster projeté ni trop dégueu, ni trop gros on est par exemple ici sur du 790*623 avec une résolution de 25m
+Données : un raster projeté ni trop dégueu, ni trop gros (on est par exemple ici sur du 790*623 avec une résolution de 25m)
 
 
 ## Réalisation
@@ -23,7 +23,7 @@ On obtient une couche avec des lignes qui partent de chaque centre de cellule or
 
 ![](https://image.prntscr.com/image/zQT_c7hnTSykRT8yb4hcXw.png)
 
-Il faut filtrer les entités ayant une déformation très faible (peu de pente), on fait donc un clic-droit sur la couche, filtrer, avec l'expression LEN > 0.1
+Il faut filtrer les entités ayant une déformation très faible (peu de pente), on fait donc un clic-droit sur la couche, filtrer, avec l'expression "LEN" > 0.1
 
 ![](https://image.prntscr.com/image/LS-YHEQMQda1kowAcGAnzQ.png)
 
@@ -53,4 +53,4 @@ Bonus : en plus il y a l'attribut d'azimuth qui est disponible, on peut alors s'
 
 -----------
 
-J'ai fait un modèle pour QGIS qui reprend les différentes étapes, vous pouvez le télécharger ici : https://gofile.io/d/4sndJ2
+J'ai fait un modèle pour QGIS qui reprend les différentes étapes, vous pouvez le télécharger ici : [https://gofile.io/d/4sndJ2](https://gofile.io/d/4sndJ2)
