@@ -41,7 +41,9 @@ On a nos lignes à peu près continues, on lance ensuite une série de "Fix geom
 Cela donne un résultat assez convaincant, mais en traficotant le style il y a moyen d'améliorer un peu : pour cela j'utilise une palette de gris dégradée sur les quantiles de l'intensité de la déformation du terrain 
 
 ![](https://image.prntscr.com/image/MeGqEGY5TSGGplMl5fiKRw.png)
+
 Je trouve le résultat assez satisfaisant :)
+
 ![](https://image.prntscr.com/image/LK_CxvaSS2OZdVX9yhpFbQ.png)
 
 Bonus : en plus il y a l'attribut d'azimuth qui est disponible, on peut alors s'amuser avec !
