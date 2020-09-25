@@ -1,6 +1,6 @@
 # Hachures
 
-On essaye de reproduire ici avec QGIS des hachures  : 
+On essaye de reproduire ici avec QGIS des hachures pour marquer le relief : 
 
 ![](https://image.prntscr.com/image/p-W3wpaWQX_AZC8Qjyzzjw.png)
 
