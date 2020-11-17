@@ -57,8 +57,6 @@ Bonus : en plus il y a l'attribut d'azimuth qui est disponible dans la couche, o
 
 -----------
 
-J'ai fait un modèle pour QGIS qui reprend les différentes étapes, vous pouvez le télécharger ici : [https://srv-file12.gofile.io/downloadStore/srv-store3/4sndJ2/hachures.model3](https://srv-file12.gofile.io/downloadStore/srv-store3/4sndJ2/hachures.model3)
-
 Style à adapter à votre convenance :)
 
 N'hésitez pas à me contacter pour améliorer !
