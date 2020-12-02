@@ -1,7 +1,6 @@
 # Des courbes à la WEB du Bois
 
-image ici
-
+![](https://david.frigge.nz/30DayMapChallenge2020/maps/lacxrx_20.jpg)
 
 Je suis assez admiratif de la dataviz dans les travaux de WEB du Bois et j'avais envie de créer une figure de ce type avec QGIS lors du [#30DayMapChallenge](https://twitter.com/search?q=%2330DayMapChallenge&src=typeahead_click).
 
