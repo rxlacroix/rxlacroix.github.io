@@ -78,6 +78,25 @@ scale_linear($area, minimum($area),maximum($area),0,360),
 
 ![](https://i.imgur.com/cdXCtLE.png)
 
+# Superposition de plusieurs données
+
+Ensuite, pour superposer plusieurs buffers, il suffit de faire varier les distances sur une autre couche de symbologie elle aussi en générateur de géométrie.
+
+Par exemple le périmètre.
+
+wedge_buffer(
+centroid($geometry),
+0+(scale_linear($perimeter, minimum($perimeter),maximum($perimeter),0,360)/2),
+scale_linear($perimeter, minimum($perimeter),maximum($perimeter),0,360),
+600000,
+500000)
+
+Ce qui donne : 
+
+![](https://i.imgur.com/CGwcxcI.png)
+
+
+
 
 
 
