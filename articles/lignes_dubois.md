@@ -14,6 +14,8 @@ Pour les besoins de l'exemple et pour la reproductibilité, j'utilise ici les do
 
 Pour plus de commodité dans les distances des tampons, on passe la couche dans un système métrique, par exemple EPSG:3857.
 
+![](https://i.imgur.com/uVcjiL5.png)
+
 # Premiers tâtonnements avec le générateur de géométrie de QGIS
 
 L'idée n'était pas de faire exactement une figure s'enroulant en spirale, mais simplement des arcs de cercles concentriques.
