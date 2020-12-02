@@ -5,6 +5,7 @@
 ### Carto - QGIS
 
 [Lignes du Bois](/articles/lignes_dubois)
+<img src="https://david.frigge.nz/30DayMapChallenge2020/maps/lacxrx_20.jpg" width="480" height="480"/>
 
 [Hachures](/articles/hachures)
 <img src="https://image.prntscr.com/image/N0oMKBpFTAWVqzQuXybMnw.png" width="480" height="480"/>
