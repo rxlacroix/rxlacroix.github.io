@@ -24,14 +24,14 @@ Pour cela, on prend la fonction wedge_buffer, qui sert en principe à faire des 
 - inner_radius : le rayon interne de la part de camembert que l'on veut enlever dans notre exemple
 
 Par exemple, pour une part d'un angle de 90°, dans la direction nord, d'une largeur de 500 km depuis le centroïde des pays on écrira dans le générateur de géométrie (polygône) :
-wedge_buffer(centroid($geometry),0,90,500000,0)
+*wedge_buffer(centroid($geometry),0,90,500000,0)*
 
 Cela donne le résultat suivant : 
 
 ![](https://i.imgur.com/Tn0wQ6H.png)
 
 Si on veut alors une bande de 100km d'épaisseur en bordure externe on donne un inner_radius positif : 
-wedge_buffer(centroid($geometry),0,90,500000,400000)
+*wedge_buffer(centroid($geometry),0,90,500000,400000)*
 ![](https://i.imgur.com/ijtqVJZ.png)
 
 Bon on commence à voir à peu près la forme voulue, maintenant le placement
@@ -42,7 +42,7 @@ On veut que notre buffer se propage depuis le 0° "nord", mais seulement d'un c�
 
 Du coup, pour décaler le point de démarrage, il va falloir utiliser l'angle d'épaisseur de la part de camembert ! 
 
-Pour un angle à 90° on notera donc : wedge_buffer(centroid($geometry),0+(90/2),90,500000,400000)
+Pour un angle à 90° on notera donc : *wedge_buffer(centroid($geometry),0+(90/2),90,500000,400000)*
 
 Le zéro est trivial ici mais c'est parce que je prends un  azimuth à zéro, dans d'autres cas il faudrait le rajouter.
 
@@ -57,24 +57,24 @@ Pour la valeur je prends ici $area, mais c'est à remplacer potentiellement par 
 
 On notera donc :
 
-wedge_buffer(
+*wedge_buffer(
 centroid($geometry),
 0+(90/2),
 scale_linear($area, minimum($area),maximum($area),0,360),
 500000,
-400000)
+400000)*
 
 
 ![](https://i.imgur.com/YD8iGC7.png)
 
 Comme on le voit, il faut encore juste régler le premier angle, on copie-colle le scale_linear... à la place de 90, et le tour est joué !
 
-wedge_buffer(
+*wedge_buffer(
 centroid($geometry),
 0+(scale_linear($area, minimum($area),maximum($area),0,360)/2),
 scale_linear($area, minimum($area),maximum($area),0,360),
 500000,
-400000)
+400000)*
 
 ![](https://i.imgur.com/cdXCtLE.png)
 
@@ -84,12 +84,12 @@ Ensuite, pour superposer plusieurs buffers, il suffit de faire varier les distan
 
 Par exemple le périmètre.
 
-wedge_buffer(
+*wedge_buffer(
 centroid($geometry),
 0+(scale_linear($perimeter, minimum($perimeter),maximum($perimeter),0,360)/2),
 scale_linear($perimeter, minimum($perimeter),maximum($perimeter),0,360),
 600000,
-500000)
+500000)*
 
 Ce qui donne : 
 
