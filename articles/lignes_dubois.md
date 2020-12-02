@@ -4,6 +4,8 @@ image ici
 
 
 Je suis assez admiratif de la dataviz dans les travaux de WEB du Bois et j'avais envie de créer une figure de ce type avec QGIS lors du [#30DayMapChallenge](https://twitter.com/search?q=%2330DayMapChallenge&src=typeahead_click).
+
+
 ![](https://images-na.ssl-images-amazon.com/images/I/41GMSpOgPbL._AC_UL600_SR429,600_.jpg)
 
 # Données
