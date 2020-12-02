@@ -3,6 +3,9 @@
 ---
 
 ### Carto - QGIS
+
+[Lignes du Bois](/articles/lines_dubois)
+
 [Hachures](/articles/hachures)
 <img src="https://image.prntscr.com/image/N0oMKBpFTAWVqzQuXybMnw.png" width="480" height="480"/>
 
