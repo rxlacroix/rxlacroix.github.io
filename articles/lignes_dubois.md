@@ -40,6 +40,43 @@ Bon on commence à voir à peu près la forme voulue, maintenant le placement
 
 On veut que notre buffer se propage depuis le 0° "nord", mais seulement d'un côté. Là il part dans les deux directions, c'est pas simple à lire.
 
+Du coup, pour décaler le point de démarrage, il va falloir utiliser l'angle d'épaisseur de la part de camembert ! 
+
+Pour un angle à 90° on notera donc : wedge_buffer(centroid($geometry),0+(90/2),90,500000,400000)
+
+Le zéro est trivial ici mais c'est parce que je prends un  azimuth à zéro, dans d'autres cas il faudrait le rajouter.
+
+![](https://i.imgur.com/jWIUIyH.png)
+
+# Épaisseur et définition par les données
+
+Là un morceau plus complexe, il s'agit de faire varier l'angle de notre buffer en fonction de nos données.
+Comme nos valeurs d'angle doivent varier entre 0 et 360, on va utiliser la fonction scale_linear pour permettre de transposer nos valeurs sur cette gamme d'angle.
+
+Pour la valeur je prends ici $area, mais c'est à remplacer potentiellement par un attribut numérique.
+
+On notera donc :
+
+wedge_buffer(
+centroid($geometry),
+0+(90/2),
+scale_linear($area, minimum($area),maximum($area),0,360),
+500000,
+400000)
+
+
+![](https://i.imgur.com/YD8iGC7.png)
+
+Comme on le voit, il faut encore juste régler le premier angle, on copie-colle le scale_linear... à la place de 90, et le tour est joué !
+
+wedge_buffer(
+centroid($geometry),
+0+(scale_linear($area, minimum($area),maximum($area),0,360)/2),
+scale_linear($area, minimum($area),maximum($area),0,360),
+500000,
+400000)
+
+![](https://i.imgur.com/cdXCtLE.png)
 
 
 
