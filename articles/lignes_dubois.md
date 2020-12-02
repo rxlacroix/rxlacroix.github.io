@@ -24,7 +24,7 @@ Pour cela, on prend la fonction wedge_buffer, qui sert en principe à faire des 
 - outer_radius : le rayon du camembert
 - inner_radius : le rayon interne de la part de camembert que l'on veut enlever dans notre exemple
 
-Par exemple, pour une part d'un angle de 90°, dans la direction nord, d'une largeur de 500 km on écrira :
+Par exemple, pour une part d'un angle de 90°, dans la direction nord, d'une largeur de 500 km depuis le centroïde des pays on écrira dans le générateur de géométrie (polygône) :
 wedge_buffer(centroid($geometry),0,90,500000,0)
 
 Cela donne le résultat suivant : 
