@@ -29,7 +29,7 @@ wedge_buffer(centroid($geometry),0,90,500000,0)
 
 Cela donne le résultat suivant : 
 
-
+![](https://i.imgur.com/Tn0wQ6H.png)
 
 
 
