@@ -12,7 +12,7 @@ Je suis assez admiratif de la dataviz dans les travaux de WEB du Bois et j'avais
 Pour les besoins de l'exemple et pour la reproductibilité, j'utilise ici les données dispo par défaut dans QGIS, à savoir les pays du monde (vous pouvez obtenir la couche en tapant world dans l'input des coordonnées en bas au centre).
 Pour plus de commodité dans les distances des tampons, on passe la couche dans un système métrique, par exemple EPSG:3857.
 
-# Tâtonnements avec le générateur de géométrie de QGIS
+# Premiers tâtonnements avec le générateur de géométrie de QGIS
 
 L'idée n'était pas de faire exactement une figure s'enroulant en spirale, mais simplement des arcs de cercles concentriques.
 
@@ -30,12 +30,15 @@ Cela donne le résultat suivant :
 
 ![](https://i.imgur.com/Tn0wQ6H.png)
 
+Si on veut alors une bande de 100km d'épaisseur en bordure externe on donne un inner_radius positif : 
+wedge_buffer(centroid($geometry),0,90,500000,400000)
+![](https://i.imgur.com/ijtqVJZ.png)
 
+Bon on commence à voir à peu près la forme voulue, maintenant le placement
 
+# Placement
 
-
-
-
+On veut que notre buffer se propage depuis le 0° "nord", mais seulement d'un côté. Là il part dans les deux directions, c'est pas simple à lire.
 
 
 
